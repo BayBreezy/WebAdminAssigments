@@ -1,0 +1,23 @@
+.pg {
+  background: rgb(201, 12, 54);
+  background: linear-gradient(
+    0deg,
+    rgba(201, 12, 54, 1) 0%,
+    rgba(245, 88, 123, 1) 100%
+  );
+}
+
+.pg:hover {
+  transform: translateY(-2px);
+}
+.point {
+  cursor: pointer;
+}
+.page-enter-active,
+.page-leave-active {
+  transition: opacity 0.2s;
+}
+.page-enter,
+.page-leave-to {
+  opacity: 0;
+}

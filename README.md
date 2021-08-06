@@ -38,7 +38,7 @@ Use `npm run build` to build the project and then `npm run start` to start in pr
 
 > Behon Baker
 > Marvalee Boucher
-> Bridget Anderson
+> Bridgette Anderson
 > Abigail Mullings
 > Kisha Bent
 > Orlando Richards

@@ -32,7 +32,7 @@ const SendEmail = obj => {
           from: '"Super Web Team" <' + process.env.usernameEmail + ">",
           to: ["behon.baker@yahoo.com"],
           replyTo: process.env.usernameEmail,
-          subject: "** New Comment From Visitor **",
+          subject: "** New Submission **",
           html: data
         });
         res(mailInfo);

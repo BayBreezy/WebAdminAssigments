@@ -1,12 +1,6 @@
 <template>
   <div>
-    <v-app-bar
-      :app="$vuetify.breakpoint.smAndDown"
-      fixed
-      elevate-on-scroll
-      color="white"
-      class="px-md-15"
-    >
+    <v-app-bar app fixed elevate-on-scroll color="white" class="px-md-15">
       <div class="hidden-md-and-up">
         <v-app-bar-nav-icon @click="drawer = !drawer">
           <v-icon>mdi-sort-variant</v-icon>
